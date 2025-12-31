@@ -1,0 +1,219 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  overflow: hidden;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+
+.фон {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/Медиа/фон.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(16,1fr);
+  gap: 20px;
+}
+
+
+.подложкаБлокаПриложений {
+  width: 550px;
+  height: 70px;
+  display: flex;
+  overflow: scroll;
+  background-color: rgba(240, 248, 255, 0.298);
+  backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.851);
+  border-radius: 20px;
+  grid-column: 6/12;
+  grid-row: 15;
+  scrollbar-width: none;
+  margin-left: 10px;
+}
+    .приложение {
+      width: 60px; 
+      height: 60px;
+      flex-shrink: 0;
+      background-repeat: no-repeat; 
+      background-position: center;
+      background-size: cover; 
+      background-size: 100%; background-color: aliceblue; border-radius: 20px;
+      margin-top: 5px;
+      margin-left: 10px;
+      transition: transform 0.5s;
+      box-shadow: 4px 5px 5px rgba(33, 33, 33, 0.257);
+    }
+    .приложение:hover {transform: scale(1.2);}
+    .п1 {background-image: url(/public/Медиа/ozon.svg);}
+    .п2 {background-image: url(/public/Медиа/avito.svg);}
+    .п3 {background-image: url(/public/Медиа/pin.svg);background-size: 90%}
+    .п4 {background-image: url(/public/Медиа/yandex-maps-logo.svg);background-size: 50%;}
+    .п5 {background-image: url(/public/Медиа/inst.svg);background-size: 90%}
+    .п6 {background-image: url(/public/Медиа/доставка.jpeg);}
+
+
+
+.подложкаБлокаКарточек {
+  width: 550px;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0.313);
+  backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  grid-column: 6/12;
+  grid-row: 2/15;
+  box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.786);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  
+}
+.блокКарточек {
+  width: 100%;
+  height: 86%;
+  background-color: rgba(0, 255, 255, 0);
+  gap: 10px;
+    display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  scrollbar-width: none;
+
+}
+
+
+.кнопкиПодложкиБлокаКарточек {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  gap: 15px;
+  background-color: rgba(253, 253, 253, 0.443);
+  transform: translateX(50%);
+  border-radius: 25px ;
+  border: 1px solid;
+  border-color: rgba(129, 129, 129, 0.648);
+}
+    .кнопкаКК {
+      width: 70px;
+      height: 80%;
+      background-color: aliceblue;
+      margin-top: 2%;
+      border-radius: 20px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.328);
+      transition: transform 0.5s;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 50%;
+    }
+    .кнопкаКК:hover{transform: scale(1.05);box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.487);}
+    .кк1 {background-image: url(/public/Медиа/кофе.png); margin-left: 17.5px;}
+    .кк2 {background-image: url(/public/Медиа/еда.png);}
+    .кк3 {background-image: url(/public/Медиа/торт.png); background-position-y: 30%;background-size: 60%;}
+.подложкаБлокаКорзины {
+  width: 60px;
+  height: 60px;
+  background-color: aliceblue;
+  grid-column: 15;
+  margin-top: 20px;
+  grid-row: 1;
+ 
+  border-radius: 100%;
+}
+
+.подложкаБлокаЛичныйКабинет {
+  width: 60px;
+  height: 60px;
+  background-color: aliceblue;
+  grid-column: 14;
+  grid-row: 1;
+  margin-top: 20px;
+  border-radius: 100%;
+  background-image: url(/public/Медиа/логоЛК.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.5s;
+  
+}
+.подложкаБлокаЛичныйКабинет:hover { 
+  transform: scale(1.1);
+}
+.подложкаБлокаКорзины {
+  width: 60px;
+  height: 60px;
+  background-color: aliceblue;
+  grid-column: 15;
+  grid-row: 1;
+  margin-top: 20px;
+  border-radius: 100%;
+  background-image: url(/public/Медиа/логоКорзина.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  transition: transform 0.5s;
+  border: 1px solid;
+    border-color: rgba(53, 152, 250, 0.721);
+}
+.подложкаБлокаКорзины:hover { 
+  transform: scale(1.1);
+}
+
+
+@media (max-height: 956px) and (max-width: 500px) {
+  .фон {grid-template-columns: repeat(6,1fr);grid-template-rows: repeat(8,1fr);}
+  .подложкаБлокаПриложений {
+    width: 96%;
+    height: 90%;
+    grid-column: 1/7;
+    grid-row: 8;
+    overflow: scroll;
+    margin-left: 2%;
+  }
+  .подложкаБлокаКарточек{
+    width: 100%;
+    grid-column: 1/7;
+    grid-row: 2/8;
+  }
+  .подложкаБлокаКорзины{
+    grid-column: 5;
+  }
+  .подложкаБлокаЛичныйКабинет{
+    grid-column: 6;
+  }
+  .приложение{
+    height: 85%;
+    width: 70px;
+    margin-right: 2%;
+    margin-left: 1%;
+  }
+     .приложение:hover {transform: scale(1);}
+  .подложкаБлокаЛичныйКабинет {
+    width: 100%;
+    height: 55%;
+    grid-row: 1;
+    grid-column: 6;
+  }
+  .подложкаБлокаКорзины{
+    width: 100%;
+    height: 55%;
+    grid-row: 1;
+    grid-column: 5;
+  }
+}

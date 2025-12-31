@@ -1,0 +1,87 @@
+
+.контейнер {
+  width: 48%;
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2px;
+  grid-template-rows: repeat(5,1fr);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid;
+  border-color: rgba(197, 197, 197, 0.44);
+  backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+  .фото {
+    width: 90%;
+    height: 55%;
+    background-color: rgba(0, 255, 255, 0);
+    grid-row: 1/4;
+    margin-top: 10px;
+    margin-left: 12.5px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-y: 60%;
+    background-position-x: center;
+  }
+.ф1 {background-image: url(/public/Медиа/1.jpg);}
+.ф2 {background-size: 120%; background-position-y: 70%; background-image: url(/public/Медиа/Флет.jpg);}
+.ф3 {background-size: 120%; background-position-y: 60%; background-position-x: 60%; background-image: url(/public/Медиа/Капучино.jpg);}
+.ф4 {background-size: 120%; background-position-y: 60%; background-position-x: 30%; background-image: url(/public/Медиа/Раф.jpg);}
+.ф5 {background-size: 120%; background-position-y: 60%; background-position-x: 50%; background-image: url(/public/Медиа/РафДубай.jpg);}
+.ф6 {background-size: 120%; background-position-y: 50%; background-position-x: 50%; background-image: url(/public/Медиа/РафТоффи.jpg);}
+.ф7 {background-size: 110%; background-position-y: 80%; background-position-x: 60%;background-image: url(/public/Медиа/Латте.jpg);}
+.ф8 {background-size: 120%; background-position-y: 40%; background-position-x: 60%;background-image: url(/public/Медиа/ЛаттеРоза.jpg);}
+.ф9 {background-image: url(/public/Медиа/ЛаттеБанан.jpg);}
+.ф10 {background-image: url(/public/Медиа/.jpg);} 
+.ф11 {background-image: url(/public/Медиа/1.jpg);}
+.ф12 {background-image: url(/public/Медиа/1.jpg);}
+.ф13 {background-image: url(/public/Медиа/1.jpg);}
+.ф14 {background-image: url(/public/Медиа/1.jpg);}
+
+  .название {
+    font-size: 25px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgba(50, 50, 50, 0.326);
+    grid-row: 4;
+    text-align: center;
+  }
+  .кнопка {
+    width: 74px;
+    height: 15%;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+    grid-row: 5;
+    border: 1px solid;
+    border-color: rgba(53, 152, 250, 0.721);
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgba(141, 141, 139, 0.448);
+    margin-left: 10px;
+    border-radius: 20px;
+    text-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 3px 4px 4px rgba(47, 47, 47, 0.345);
+    
+  }
+  .кнопка:hover{box-shadow: 3px 4px 4px rgba(5, 5, 5, 0.345);background-color: rgb(219, 245, 255); }
+ .кн1 {
+  margin-left: 50%;
+  transform: translateX(-50%);
+ }
+ .кн2 {
+  margin-left: 19%;
+ }
+
+ @media (max-height: 956px) and (max-width: 500px) {
+  .контейнер {width: 45.5%;}
+ }
