@@ -1,0 +1,169 @@
+.фонМоб {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    
+}
+* {scrollbar-width: none;}
+
+.фото22 {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(/public/Медиа/фон.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.баланс {
+    width: 100vw;
+    height: 10vh;
+    padding-top: 5%;
+    font-size: 100px;
+   text-align: center;
+    color: aliceblue;
+}
+.текстБаланс {
+    width: 100vw;
+    height: 1vh;
+    padding-top: 5%;
+    font-size: 30px;
+   text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+.окноПриложений22 {
+    width: 90vw;
+    height: 10vh;
+    margin-top: 13%;
+    margin-left: 4.5%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: inherit;
+    overflow: scroll;
+    border-radius: 20px;
+    
+   
+    background-color: rgba(240, 248, 255, 0.403);
+    align-items: center;
+}
+
+.прил {
+    width: 65px;
+    height: 65px;
+     flex-shrink: 0;
+     background-color: aliceblue;
+     border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 2%;
+    
+}
+.п1 {background-image: url(/public/Медиа/ozon.svg);}
+.п2 {background-image: url(/public/Медиа/avito.svg);}
+.п3 {background-image: url(/public/Медиа/pin.svg);}
+.п4 {background-image: url(/public/Медиа/inst.svg);}
+.п5 {background-image: url(/public/Медиа/доставка.jpeg);}
+.п6 {background-size: 50%;background-image: url(/public/Медиа/yandex-maps-logo.svg);}
+
+
+.окноКатегорий22 {
+    width: 98vw;
+    height: 7vh;
+    margin-top: 5%;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: inherit;
+    overflow: scroll;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+}
+.категория {
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 50px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    border-color: black;
+    margin: 1%;
+    
+
+}
+
+
+
+
+
+.верхнийБар {
+    width: 98vw;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.587);
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.нижнийБар {
+    width: 96vw;
+    height: 60px;
+    margin-top: 80vh;
+    margin-left: 2%;
+    border-radius: 50px;
+    border: 2 solid;
+    border-color: white;
+    position: fixed;
+    background-color: rgba(130, 130, 130, 0.093);
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
+}
+.круассан {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-left: 58%;
+    margin-top: -24%;
+    background-image: url(/public/Медиа/croissant.png);
+}
+.блокКарт {
+    width: 96vw;
+    height: 86vh;
+    margin-left: 2%;
+    margin-top: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.карта {
+    width: 44%;
+    height: 250px;
+    background-color: aqua;
+    margin: 3%;
+}

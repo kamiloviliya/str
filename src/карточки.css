@@ -81,38 +81,3 @@
   margin-left: 19%;
  }
 
- @media (max-height: 956px) and (max-width: 500px) {
-  .контейнер {
-    width: 45.5%;
-
-  }
-   .кнопка{
-    width: 40px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 600;
-
-
-   }
-   .название {
-    font-size: 20px;
-   }
-   .фото {
-    height: 150px;
-    margin-left: 8px;
-   }
- }
- .ф1 {background-size: cover;}
- .ф2 {background-size: cover;}
- .ф3 {background-size: cover;}
- .ф4 {background-size: cover;}
- .ф5 {background-size: cover;}
- .ф6 {background-size: cover;}
- .ф7 {background-size: cover;}
- .ф8 {background-size: cover;}
- .ф9 {background-size: cover;}
- .ф10 {background-size: cover;}
- .ф11 {background-size: cover;}
- .ф12 {background-size: cover;}
- .ф13 {background-size: cover;}
- .ф14 {background-size: cover;}

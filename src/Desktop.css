@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   background-size: cover;
-  overflow: hidden;
+  
 }
 html, body {
   margin: 0;
@@ -175,48 +175,3 @@ html, body {
   transform: scale(1.1);
 }
 
-
-@media (max-height: 956px) and (max-width: 500px) {
-  .фон {grid-template-columns: repeat(6,1fr);grid-template-rows: repeat(8,1fr); gap: 5px;}
-  .подложкаБлокаПриложений {
-    width: 96%;
-    height: 80px;
-    grid-column: 1/7;
-    grid-row: 8;
-    overflow: scroll;
-    margin-left: 2%;
-  }
-  .подложкаБлокаКарточек{
-    width: 96%;
-    height: 96%;
-    grid-column: 1/7;
-    grid-row: 2/8;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    margin-left: 2%;
-  }
-  .блокКарточек{
-    margin-top: 3%;
-    margin-left: 3%;
-  }
-  .приложение{
-    height: 70px;
-    width: 70px;
-    margin-right: 2%;
-    margin-left: 1%;
-  }
-     .приложение:hover {transform: scale(1);}
-  .подложкаБлокаЛичныйКабинет {
-    width: 70px;
-    height: 70px;
-    grid-row: 1;
-    grid-column: 6;
-  }
-  .подложкаБлокаКорзины{
-    width: 70px;
-    height: 70px;
-    grid-row: 1;
-    grid-column: 5;
-  }
-}
