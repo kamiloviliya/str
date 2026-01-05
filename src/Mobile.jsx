@@ -5,7 +5,7 @@ import './Mobile.css' ;
 function Mobile (){
     return(
         <div className="основаМОБ">
-            <div className="NAME"/>
+            <div className="NAME">Le croissant</div>
             <div className="бар"/>
             <div className="подложка">
                 <div className="карточкаМОБ"/>

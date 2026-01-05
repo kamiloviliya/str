@@ -19,8 +19,8 @@
 
 .подложка {
     width: 100%;
-    height: 90vh;
-    margin-top: 10vh;
+    height: 95vh;
+    margin-top: 5vh;
     display: flex;
     padding: 3%;
     gap: 2%;
@@ -63,5 +63,11 @@
 
 .NAME {
     width: 100%;
-    font-size: 25px;
+    height: 1vh;
+    padding-top: 1vh;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    
 }
