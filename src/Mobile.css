@@ -1,15 +1,17 @@
 .основаМОБ {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
+    
     grid-template-columns: repeat(6,1fr);
     background-color: rgba(26,26,26);
-    background-image: url(/public/Медиа/Глинтвейн.JPG);
+    background-image: url(/public/Медиа/фон.jpg);
     background-position: top;
     background-repeat: no-repeat;
 
-    background-size: 200%;
+    background-size: cover;
     gap: 0;
 }
 *{scrollbar-width: none;}
@@ -17,14 +19,14 @@
 
 .подложка {
     width: 100%;
-    height: 100%;
-    margin-top: 100%;
+    height: 90vh;
+    margin-top: 10vh;
     display: flex;
     padding: 3%;
     gap: 2%;
     flex-wrap: wrap;
-
-    background-color: aliceblue;
+    overflow: scroll;
+    background-color: rgba(240, 248, 255, 0);
     background-size: 100%;
     border-radius: 25px;
     grid-column: 1/7;
@@ -32,22 +34,34 @@
 
 }
 .карточкаМОБ {
-    width: 49%;
+    width: 48%;
     height: 250px;
-    background-color: yellow;
-    border-radius: 10px;
+    background-color: rgba(204, 204, 204, 0);
+    border: 1px solid;
+    border-color: rgba(208, 208, 208, 0.368);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 .бар {
     width: 90%;
     height: 10%;
     position: fixed;
     background-position-y: -100%;
-    background-color: rgba(204, 204, 204, 0.558);
-    backdrop-filter: blur(10px);
+    background-color: rgba(204, 204, 204, 0);
+    backdrop-filter: blur(5px);
     border-radius: 100px;
-    -webkit-backdrop-filter: blur(10px);
-    top: 88vh;
+    border: 0.9px solid;
+    border-color: rgba(255, 255, 255, 0.368);
+    box-shadow: 0px 2px 5px rgba(3, 3, 3, 0.632);
+    -webkit-backdrop-filter: blur(5px);
+    top: 84vh;
     left: 5%;
     z-index: 7;
 
+}
+
+.NAME {
+    width: 100%;
+    font-size: 25px;
 }
